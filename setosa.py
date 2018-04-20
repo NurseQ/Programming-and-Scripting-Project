@@ -27,7 +27,7 @@ meanDataD = numpy.mean(d)
 print("The average petal length of the Iris-Setosa is: ",  meanDataA)
 print("The average petal width of the Iris-Setosa is: ",  meanDataB)
 print("The average sepal length of the Iris-Setosa is: ",  meanDataC)
-print("The average of petal width of the Iris-Setosa is: ", meanDataD)
+print("The average of sepal width of the Iris-Setosa is: ", meanDataD)
 
 # imported library for visualization of data
 import matplotlib.pyplot as mp
