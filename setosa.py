@@ -18,7 +18,7 @@ c = thirdcol[0:50]
 d = fourthcol[0:50]
 
 
-#takes the mean of each of the column
+#calculate the mean of each of the column
 meanDataA = numpy.mean(a)
 meanDataB = numpy.mean(b)
 meanDataC = numpy.mean(c)
@@ -29,3 +29,11 @@ print("The average petal width of the Iris-Setosa is: ",  meanDataB)
 print("The average sepal length of the Iris-Setosa is: ",  meanDataC)
 print("The average of petal width of the Iris-Setosa is: ", meanDataD)
 
+# imported library for visualization of data
+import matplotlib.pyplot as mp
+
+# command for plotting column a (petal length) into a histogram
+# argument can be changed to either column a, b, c or d
+mp.hist(a)
+# command to print out histogram chart
+mp.show()
