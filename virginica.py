@@ -1,5 +1,5 @@
 # James Quintin 20/04/18
-# Analysis of the Iris Verginica Flower from Fishers Iris Flower Dataset
+# Analysis of the Iris Virginica Flower from Fishers Iris Flower Dataset
 
 import numpy
 
@@ -11,7 +11,7 @@ seccol = data[:,1]
 thirdcol = data[:,2]
 fourthcol = data[:,3]
 
-#takes the third 50 of each column which is the iris-Verginica
+#takes the third 50 of each column which is the iris-Virginica
 a = firstcol[100:150]
 b = seccol [100:150]
 c = thirdcol[100:150]
@@ -24,10 +24,10 @@ meanDataB = numpy.mean(b)
 meanDataC = numpy.mean(c)
 meanDataD = numpy.mean(d)
 
-print("The average petal length of the Iris-Verginica is: ",  meanDataA)
-print("The average petal width of the Iris-Verginica is: ",  meanDataB)
-print("The average sepal length of the Iris-Verginica is: ",  meanDataC)
-print("The average of sepal width of the Iris-Verginica is: ", meanDataD)
+print("The average petal length of the Iris-Virginica is: ",  meanDataA)
+print("The average petal width of the Iris-Virginica is: ",  meanDataB)
+print("The average sepal length of the Iris-Virginica is: ",  meanDataC)
+print("The average of sepal width of the Iris-Virginica is: ", meanDataD)
 
 # imported library for visualization of data
 import matplotlib.pyplot as mp
