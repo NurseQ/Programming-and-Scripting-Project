@@ -23,7 +23,7 @@ meanDataC = numpy.mean(c)
 
 
 print("The average petal length of the Iris-Setosa is: ",  meanDataA)
-print("The average petal width of the Iris-Versicolor is: ",  meanDataB)
+print("The average petal length of the Iris-Versicolor is: ",  meanDataB)
 print("The average sepal length of the Iris-Verginica is: ",  meanDataC)
 
 
