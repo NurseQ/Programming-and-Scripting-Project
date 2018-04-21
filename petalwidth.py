@@ -31,7 +31,7 @@ print("The average sepal width of the Iris-Verginica is: ",  meanDataC)
 import matplotlib.pyplot as mp
 
 # command for plotting column (petal width) into a histogram
-# argument can be changed to either a, b, c petal widthss
+# argument can be changed to either a, b, c petal widths
 mp.hist(a)
 # command to print out histogram chart
 mp.show()
