@@ -39,6 +39,6 @@ mp.show()
 mp.scatter(x,setosaPwidth,c="b")
 mp.scatter(x,versicolorPwidth,c="r")
 mp.scatter(x, virginicaPwidth, c="g")
-mp.ylabel("Petal length in cm")
+mp.ylabel("Petal width in cm")
 
 mp.show()
