@@ -39,9 +39,9 @@ mp.hist(setosaPlength)
 mp.show()
 
 # plots each data point to visualize general petal length of flower
-mp.scatter(x,setosaPlength,c="b")
-mp.scatter(x,versicolorPlength,c="r")
-mp.scatter(x, virginicaPlength, c="g")
+se = mp.scatter(x,setosaPlength,c="b")
+ve = mp.scatter(x,versicolorPlength,c="r")
+vi = mp.scatter(x, virginicaPlength, c="g")
 mp.ylabel("Petal length in cm")
-
+mp.legend((se,ve,vi),("Setosa", "Versicolor", "Virginica"))
 mp.show()
