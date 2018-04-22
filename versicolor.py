@@ -37,3 +37,7 @@ import matplotlib.pyplot as mp
 mp.hist(a)
 # command to print out histogram chart
 mp.show()
+
+# plots petal length on x axis and petal width on y axis
+mp.scatter(a,b)
+mp.show()
