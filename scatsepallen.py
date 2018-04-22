@@ -12,16 +12,16 @@ thirdcol = data[:,2]
 fourthcol = data[:,3]
 
 #The first column is the petal length and split into each flower
-setosaPlength = firstcol[0:50]
-versicolorPlength = firstcol [50:100]
-virginicaPlength = firstcol[100:150]
+setosaSlength = thirdcol[0:50]
+versicolorSlength = thirdcol [50:100]
+virginicaSlength = thirdcol[100:150]
 
 
 
 #calculate the mean of petal length of each flower
-meanDataA = numpy.mean(setosaPlength)
-meanDataB = numpy.mean(versicolorPlength)
-meanDataC = numpy.mean(virginicaPlength)
+meanDataA = numpy.mean(setosaSlength)
+meanDataB = numpy.mean(versicolorSlength)
+meanDataC = numpy.mean(virginicaSlength)
 
 
 print("The average petal length of the Iris-Setosa is: ",  meanDataA)
@@ -32,16 +32,16 @@ print("The average petal length of the Iris-Virginica is: ",  meanDataC)
 import matplotlib.pyplot as mp
 x = range(0,50)
 
-# command for plotting petal length into a histogram
+# command for plotting sepal length into a histogram
 # argument can be changed to either flower
-mp.hist(setosaPlength)
+mp.hist(setosaSlength)
 # command to print out histogram chart
 mp.show()
 
 # plots each data point to visualize general petal length of flower
-mp.scatter(x,setosaPlength,c="b")
-mp.scatter(x,versicolorPlength,c="r")
-mp.scatter(x, virginicaPlength, c="g")
-mp.ylabel("Petal length in cm")
+mp.scatter(x,setosaSlength,c="b")
+mp.scatter(x,versicolorSlength,c="r")
+mp.scatter(x, virginicaSlength, c="g")
+mp.ylabel("Sepal length in cm")
 
 mp.show()
