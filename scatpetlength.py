@@ -32,7 +32,7 @@ print("The average petal length of the Iris-Virginica is: ",  meanDataC)
 import matplotlib.pyplot as mp
 x = range(0,50)
 
-# command for plotting column a (petal length) into a histogram
+# command for plotting petal length into a histogram
 # argument can be changed to either flower
 mp.hist(setosaPlength)
 # command to print out histogram chart
