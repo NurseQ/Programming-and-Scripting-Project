@@ -22,3 +22,4 @@ while i < len(firstcol):
     print(i, firstcol[i]) 
     i = i + 1
     
+Here is part of the problem
