@@ -20,6 +20,7 @@ i = 0
 while i < len(firstcol):
     # print i and whatever i is in the list
     print(i, firstcol[i]) 
-    i = i + 1```
+    i = i + 1
+    ```
     
 Here is part of the problem
