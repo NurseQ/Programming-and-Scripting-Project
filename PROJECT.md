@@ -1,6 +1,7 @@
 # PROJECT 2018
 ## PROGRAMMING AND SCRIPTING
-```# James Quintin 20/04/18
+```python
+# James Quintin 20/04/18
 # Analysis of the Fishers Iris Flower Dataset
 
 # Count the number of rows, counting the first column
