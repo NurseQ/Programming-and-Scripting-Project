@@ -22,5 +22,5 @@ while i < len(firstcol):
     print(i, firstcol[i]) 
     i = i + 1
  ```
- 
+Not part of the code
 
