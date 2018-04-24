@@ -21,6 +21,8 @@ while i < len(firstcol):
     # print i and whatever i is in the list
     print(i, firstcol[i]) 
     i = i + 1
-    ```python
-    
+    ```
+ 
+ 
+ 
 Here is part of the problem
