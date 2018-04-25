@@ -10,13 +10,14 @@ Fishers dataset can be downloaded as a csv file from this site. The code inserte
 ### Counting the dataset
 The number of rows within Fishers dataset are counted using the code inserted below. The code takes the first column and uses the range function to count each of the rows. Opening the csv file from the repository will also show the number of rows and columns. 
 
-###Splitting the columns
+### Splitting the columns
 The code below first splits the dataset into each column then divides each column by fifty. This will assign each group of fifty measurements into each flowers petal length, petal width, sepal length and sepal width. When the measurements are grouped into each flowers appropriate heading, further analysis can be employed. The inserted code under max, min, mean shows code used to calculate the maximum measurements, minimum measurements and the average of each group or heading. 
 
 ### Max, min, mean
  
-## Visualize the data
-## Summary of investigations
+## Classification process
+The paper by Fisher was found to be mathematically challenging to use as a basis for the conduct of this project. The programming skills of the researcher was also deficient to offer more complex solutions to try and classify the flowers using the measurements from the dataset. The paper by Hoey offered a simpler solution and less complicated method to classify the flowers from the dataset. Although, the method used in this project produced mere generalizations, it seems to be a  direct process to attempt to classify the flowers.  
+Hoey 
 ## Suppporting tables and graphs
 ## References
 
