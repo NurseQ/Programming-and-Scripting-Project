@@ -13,10 +13,12 @@ The number of rows within Fishers dataset are counted using the code inserted be
 ### Splitting the columns
 The code below first splits the dataset into each column then divides each column by fifty. This will assign each group of fifty measurements into each flowers petal length, petal width, sepal length and sepal width. When the measurements are grouped into each flowers appropriate heading, further analysis can be employed. The inserted code under max, min, mean shows code used to calculate the maximum measurements, minimum measurements and the average of each group or heading. 
 
-### Max, min, mean
+### Statistical Values
+
+### Histograms
  
 ## Classification process
-The paper by Fisher was found to be mathematically challenging to use as a basis for the conduct of this project. The programming skills of the researcher was also deficient to offer more complex solutions to try and classify the flowers. The paper by Hoey offered a simpler solution and less complicated method to classify the flowers from the dataset. Hoey looked at the dataset and drew patterns to see how each of the class of flowers differed from each other. Although, the method used in this project produced mere generalizations, it seems to be a  direct process to attempt to classify the flowers.  
+The paper by Fisher was found to be mathematically challenging to use as a basis for the conduct of this project. The programming skills of the researcher was also deficient to offer more complex solutions to try and classify the flowers. The paper by Hoey offered a simpler solution and less complicated method to classify the flowers from the dataset. Hoey looked at the dataset and drew patterns to see how each of the class of flowers differed from each other. This project attempts to use Hoey's method to produce a distinction between each of the flowers. The conclusions drawn from this project are generalizations and would require more advanced statistical analysis including standard deviation and variance to offer more accurate distinctions. The use of other python data analytics libraries might also be needed to output more intuitive graphical representation or graphs for a more detailed analysis of the dataset.  
 
 **Figure 1** - This scatter plot compares the petal length with the classification of flower. Conclusions drawn from figure 1 are listed below and the maximum, minimum and mean support the listed conclusions. 
 1. The Iris Setosa has the shortest petal with little overlap with the second shortest flower, the Iris Versicolor.
@@ -33,19 +35,20 @@ The paper by Fisher was found to be mathematically challenging to use as a basis
 
 ![Scatter plot petal width](https://github.com/NurseQ/Project-Iris-Flower-Dataset/blob/master/Images/Scatter%20petal%20width.png)
 
-Figure 3 - This scatter plot compares the sepal length with the classification of flower. Conclusions drawn from figure 1 are listed below and the maximum, minimum and mean support the listed conclusions. 
+**Figure 3** - This scatter plot compares the sepal length with the classification of flower. Conclusions drawn from figure 3 are listed below and the maximum, minimum and mean support the listed conclusions. 
 1. The Iris Setosa has the shortest sepal length with no overlap from the other flowers.
 2. The Iris Versicolor has a medium sepal length in relation to the other flowers.
 3. The Iris Virginica has the longest sepal length with little overlap with the Iris Versicolor.
 
 ![Scatter plot sepal length](https://github.com/NurseQ/Project-Iris-Flower-Dataset/blob/master/Images/Scatter%20sepal%20length.png)
 
-Figure 4 - This scatter plot compares the sepal width with the classification of flower. Conclusions drawn from figure 1 are listed below and the maximum, minimum and mean support the listed conclusions. 
+**Figure 4** - This scatter plot compares the sepal width with the classification of flower. Conclusions drawn from figure 3 are listed below and the maximum, minimum and mean support the listed conclusions. 
 1. The Iris Setosa has the narrowest petal with clear distinction from the other flowers.
 2. The Iris Versicolor has a medium sepal width in relation to the other flowers.
 3. The Iris Virginica has the widest sepals with very little overlap with the Iris Versicolor.
 
 ![Scatter plot sepal width](https://github.com/NurseQ/Project-Iris-Flower-Dataset/blob/master/Images/Scatter%20sepal%20width.png)
+
 
 
 
