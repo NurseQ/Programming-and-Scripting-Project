@@ -23,7 +23,7 @@ Figure 1 - This scatter plot compares the petal length with the classification o
 2. The Iris Versicolor has a medium petal in relation to the other flowers.
 3. The Iris Virginica has the longest petals but has some overlap with the Iris Versicolor.
 
-
+(https://github.com/NurseQ/Project-Iris-Flower-Dataset/blob/master/Images/Scatter%20petal%20length.png)
 Figure 2 - This scatter plot compares the petal width with the classification of flower. There appears to be more overlap in this figure but concluisons can still be drawn from the figure. This is also reflected in the values from the maximum, minimum and mean where the values are numerically closer to each other.  
 1. The Iris Setosa has the widest petal.
 2. The Iris Versicolor has a medium petal in relation to the other flowers.
