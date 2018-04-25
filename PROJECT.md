@@ -31,7 +31,7 @@ The paper by Fisher was found to be mathematically challenging to use as a basis
 2. The Iris Versicolor has a medium petal in relation to the other flowers.
 3. The Iris Virginica has the narrowest petals.
 
-
+![Scatter plot petal width](https://github.com/NurseQ/Project-Iris-Flower-Dataset/blob/master/Images/Scatter%20petal%20width.png)
 
 Figure 3 - This scatter plot compares the sepal length with the classification of flower. Conclusions drawn from figure 1 are listed below and the maximum, minimum and mean support the listed conclusions. 
 1. The Iris Setosa has the shortest sepal length with no overlap from the other flowers.
