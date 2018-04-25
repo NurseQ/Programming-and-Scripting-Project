@@ -16,8 +16,16 @@ The code below first splits the dataset into each column then divides each colum
 ### Max, min, mean
  
 ## Classification process
-The paper by Fisher was found to be mathematically challenging to use as a basis for the conduct of this project. The programming skills of the researcher was also deficient to offer more complex solutions to try and classify the flowers using the measurements from the dataset. The paper by Hoey offered a simpler solution and less complicated method to classify the flowers from the dataset. Although, the method used in this project produced mere generalizations, it seems to be a  direct process to attempt to classify the flowers.  
-Hoey 
+The paper by Fisher was found to be mathematically challenging to use as a basis for the conduct of this project. The programming skills of the researcher was also deficient to offer more complex solutions to try and classify the flowers. The paper by Hoey offered a simpler solution and less complicated method to classify the flowers from the dataset. Hoey looked at the dataset and drew patterns to see how each of the class of flowers differed from each other. Although, the method used in this project produced mere generalizations, it seems to be a  direct process to attempt to classify the flowers.  
+
+Figure 1 - This scatter plot compares the petal length with the classification of flower. Conclusions drawn from figure 1 are listed below and the maximum, minimum and mean support the listed conclusions. 
+1. The Iris Setosa has the shortest petal length with little overlap with the second shortest flower, the Iris Versicolor.
+2. The Iris Versicolor has a medium length in relation to the other flowers.
+3. The Iris Virginica has the longest petals but has some overlap with the Iris Versicolor.
+
+
+
+  
 ## Suppporting tables and graphs
 ## References
 
