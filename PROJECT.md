@@ -38,11 +38,14 @@ Figure 3 - This scatter plot compares the sepal length with the classification o
 2. The Iris Versicolor has a medium sepal length in relation to the other flowers.
 3. The Iris Virginica has the longest sepal length with little overlap with the Iris Versicolor.
 
+![Scatter plot sepal length](https://github.com/NurseQ/Project-Iris-Flower-Dataset/blob/master/Images/Scatter%20sepal%20length.png)
 
 Figure 4 - This scatter plot compares the sepal width with the classification of flower. Conclusions drawn from figure 1 are listed below and the maximum, minimum and mean support the listed conclusions. 
 1. The Iris Setosa has the narrowest petal with clear distinction from the other flowers.
 2. The Iris Versicolor has a medium sepal width in relation to the other flowers.
 3. The Iris Virginica has the widest sepals with very little overlap with the Iris Versicolor.
+
+
 
 
 
