@@ -28,10 +28,10 @@ The paper by Fisher was found to be mathematically challenging to use as a basis
 ![Scatter plot of petal length](https://github.com/NurseQ/Project-Iris-Flower-Dataset/blob/master/Images/Scatter%20petal%20length.png)
 
 
-**Figure 2** - This scatter plot compares the petal width with the classification of flower. There appears to be more overlap in this figure but concluisons can still be drawn from the figure. This is also reflected in the values from the maximum, minimum and mean where the values are numerically closer to each other.  
-1. The Iris Setosa has the widest petal.
-2. The Iris Versicolor has a medium petal in relation to the other flowers.
-3. The Iris Virginica has the narrowest petals.
+**Figure 2** - This scatter plot compares the petal width with the classification of flower. There appears to be more overlap in this figure but conclusions can still be drawn from the figure. This is also reflected in the values from the maximum, minimum and mean where the values are numerically closer to each other.  
+1. The Iris Setosa has the widest petal but measurements overlap has many overlap with Virginica and some overlap with Versicolor.
+2. The Iris Virginica has a medium petal in relation to the other flowers, measurements overlap with the other flowers.
+3. The Iris Versicolor has the narrowest petals but has a close overlap with Virginica and some overlap with Setosa.
 
 ![Scatter plot petal width](https://github.com/NurseQ/Project-Iris-Flower-Dataset/blob/master/Images/Scatter%20petal%20width.png)
 
