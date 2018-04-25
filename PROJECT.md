@@ -19,9 +19,28 @@ The code below first splits the dataset into each column then divides each colum
 The paper by Fisher was found to be mathematically challenging to use as a basis for the conduct of this project. The programming skills of the researcher was also deficient to offer more complex solutions to try and classify the flowers. The paper by Hoey offered a simpler solution and less complicated method to classify the flowers from the dataset. Hoey looked at the dataset and drew patterns to see how each of the class of flowers differed from each other. Although, the method used in this project produced mere generalizations, it seems to be a  direct process to attempt to classify the flowers.  
 
 Figure 1 - This scatter plot compares the petal length with the classification of flower. Conclusions drawn from figure 1 are listed below and the maximum, minimum and mean support the listed conclusions. 
-1. The Iris Setosa has the shortest petal length with little overlap with the second shortest flower, the Iris Versicolor.
-2. The Iris Versicolor has a medium length in relation to the other flowers.
+1. The Iris Setosa has the shortest petal with little overlap with the second shortest flower, the Iris Versicolor.
+2. The Iris Versicolor has a medium petal in relation to the other flowers.
 3. The Iris Virginica has the longest petals but has some overlap with the Iris Versicolor.
+
+
+Figure 2 - This scatter plot compares the petal width with the classification of flower. There appears to be more overlap in this figure but concluisons can still be drawn from the figure. This is also reflected in the values from the maximum, minimum and mean where the values are numerically closer to each other.  
+1. The Iris Setosa has the widest petal.
+2. The Iris Versicolor has a medium petal in relation to the other flowers.
+3. The Iris Virginica has the narrowest petals.
+
+
+
+Figure 3 - This scatter plot compares the sepal length with the classification of flower. Conclusions drawn from figure 1 are listed below and the maximum, minimum and mean support the listed conclusions. 
+1. The Iris Setosa has the shortest sepal length with no overlap from the other flowers.
+2. The Iris Versicolor has a medium sepal length in relation to the other flowers.
+3. The Iris Virginica has the longest sepal length with little overlap with the Iris Versicolor.
+
+
+Figure 4 - This scatter plot compares the sepal width with the classification of flower. Conclusions drawn from figure 1 are listed below and the maximum, minimum and mean support the listed conclusions. 
+1. The Iris Setosa has the narrowest petal with clear distinction from the other flowers.
+2. The Iris Versicolor has a medium sepal width in relation to the other flowers.
+3. The Iris Virginica has the widest sepals with very little overlap with the Iris Versicolor.
 
 
 
