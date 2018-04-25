@@ -18,19 +18,19 @@ The code below first splits the dataset into each column then divides each colum
 ### Histograms
  
 ## Classification process
-The paper by Fisher was found to be mathematically challenging to use as a basis for the conduct of this project. The programming skills of the researcher was also deficient to offer more complex solutions to try and classify the flowers. The paper by Hoey offered a simpler solution and less complicated method to classify the flowers from the dataset. Hoey looked at the dataset and drew patterns to see how each of the class of flowers differed from each other. This project attempts to use Hoey's method to produce a distinction between each of the flowers. The conclusions drawn from this project are generalizations and would require more advanced statistical analysis including standard deviation and variance to offer more accurate distinctions. The use of other python data analytics libraries might also be needed to output more intuitive graphical representation or graphs for a more detailed analysis of the dataset.  
+The paper by Fisher was found to be mathematically challenging to use as a basis for the conduct of this project. The programming skills of the researcher was also deficient to offer more complex solutions to try and classify the flowers. The paper by Hoey offered a simpler solution and less complicated method to classify the flowers from the dataset. Hoey looked at the dataset and drew patterns to see how each of the class of flowers differed from each other. This project attempts to use Hoey's method to produce a distinction between each of the flowers. The conclusions drawn from this project are generalizations and would require more advanced statistical analysis including standard deviation and variance to offer more accurate distinctions. The use of other python data analytics libraries might also be needed to output more intuitive graphical representation or graphs for a more detailed analysis of the dataset. Figures 1 and 2 show more overlap in the measurements in the dataset which is reflected with narrower distances between the statistical values. Figures 3 and 4 show more distinct separation and is also reflected in the measurements of statistical values.  
 
 **Figure 1** - This scatter plot compares the petal length with the classification of flower. Conclusions drawn from figure 1 are listed below and the maximum, minimum and mean support the listed conclusions. 
-1. The Iris Setosa has the shortest petal with little overlap with the second shortest flower, the Iris Versicolor.
-2. The Iris Versicolor has a medium petal in relation to the other flowers.
-3. The Iris Virginica has the longest petals but has some overlap with the Iris Versicolor.
+1. The Iris Setosa has the shortest petal with a some overlap with the second shortest, the Iris Versicolor. There is also a few overlap with Virginica.
+2. The Iris Versicolor has a medium petal in relation to the other flowers but with more overlap with Virginica.
+3. The Iris Virginica has the longest petals with much overlap with Versicolor.
 
 ![Scatter plot of petal length](https://github.com/NurseQ/Project-Iris-Flower-Dataset/blob/master/Images/Scatter%20petal%20length.png)
 
 
 **Figure 2** - This scatter plot compares the petal width with the classification of flower. There appears to be more overlap in this figure but conclusions can still be drawn from the figure. This is also reflected in the values from the maximum, minimum and mean where the values are numerically closer to each other.  
-1. The Iris Setosa has the widest petal but measurements overlap has many overlap with Virginica and some overlap with Versicolor.
-2. The Iris Virginica has a medium petal in relation to the other flowers, measurements overlap with the other flowers.
+1. The Iris Setosa has the widest petal but show much overlap with Virginica and some overlap with Versicolor.
+2. The Iris Virginica has a medium petal in relation to the other flowers, measurements overlap with both other flowers.
 3. The Iris Versicolor has the narrowest petals but has a close overlap with Virginica and some overlap with Setosa.
 
 ![Scatter plot petal width](https://github.com/NurseQ/Project-Iris-Flower-Dataset/blob/master/Images/Scatter%20petal%20width.png)
