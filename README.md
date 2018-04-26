@@ -1,5 +1,5 @@
 # Programming-and-Scripting-Project
-This repository contains analysis of [Fisher's Iris data set](https://en.wikipedia.org/wiki/Iris_flower_data_set). It includes research of the dataset, analysis, documentation and code written in the Python programming language. This is a project for the course Programming and Scripting, in partial fulfillment of the requirements for Higher Diploma in Data Analytics. 
+This repository contains analysis of [Fisher's Iris data set](https://en.wikipedia.org/wiki/Iris_flower_data_set). It includes research of the dataset, analysis, documentation and code written in the Python programming language. The full documentation of the project in the repository can be found in [PROJECT.md](https://github.com/NurseQ/Project-Iris-Flower-Dataset/blob/master/PROJECT.md)\This is a project for the course Programming and Scripting, in partial fulfillment of the requirements for Higher Diploma in Data Analytics. This course is offered by [GMIT](http://www.gmit.ie/) and taught by Dr. Ian McLoughlin.
 
 # Fisher's Iris Flower Dataset
 Ronald Fisher introduced the Iris Flower dataset in 1936.  It is considered to be the best known database for pattern recognition (1). Using a statistical method of discriminant analysis(2) to find a linear combination of features that characterize or separates two or more classes or events(3).
