@@ -43,6 +43,8 @@ print("The maximum petal width of the Iris-Virginica is: ",  maxvirg)
 
 # imported library for visualization of data
 import matplotlib.pyplot as mp
+
+# provides the x axis with a range up to 50
 x = range(0,50)
 
 # command to plot each of the flowers petal width into a histogram
