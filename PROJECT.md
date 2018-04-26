@@ -44,7 +44,7 @@ The minimum sepal length of the Iris-Versicolor is:  3.0\
 The minimum sepal length of the Iris-Virginica is:  4.5\
 The maximum sepal length of the Iris-Setosa is:  1.9\
 The maximum sepal length of the Iris-Versicolor is:  5.1\
-The maximum sepal length of the Iris-Virginica is:  6.9\
+The maximum sepal length of the Iris-Virginica is:  6.9
 
 The average sepal width of the Iris-Setosa is:  0.244\
 The average sepal width of the Iris-Versicolor is:  1.326\
