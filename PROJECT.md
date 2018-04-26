@@ -182,15 +182,19 @@ Figures 1 and 2 show more overlap in the measurements in the dataset which is re
 Other supporting graphs used in the project are a histograms that also show the underlying frequency distribution of the dataset. Histograms allow visualization of the shape of continous data including skewness and outliers within the dataset. 
 
 **Setosa petal length histogram** 
+
 ![Setosa petal length histogram](https://github.com/NurseQ/Project-Iris-Flower-Dataset/blob/master/Images/setA.png)
 
 **Setosa petal width histogram**
+
 ![Setosa petal width histogram](https://github.com/NurseQ/Project-Iris-Flower-Dataset/blob/master/Images/setB.png)
 
 **Setosa sepal length histogram**
+
 ![Setosa sepal length histogram](https://github.com/NurseQ/Project-Iris-Flower-Dataset/blob/master/Images/setC.png)
 
 **Setosa sepal width histogram**
+
 ![Setosa sepal width histogram](https://github.com/NurseQ/Project-Iris-Flower-Dataset/blob/master/Images/setD.png)
 ## References
 [2] UCI Machine Learning Repository, "Iris Data Set," [Online]. Availabale: https://archive.ics.uci.edu/ml/datasets/iris. [Accessed: April 11,2018].
