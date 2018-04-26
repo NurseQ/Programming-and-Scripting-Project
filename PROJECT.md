@@ -8,11 +8,6 @@ The dataset used in this project was introduced by Ronald Fisher in 1936 from hi
 Fishers dataset can be downloaded as a csv file from this site. The code inserted below shows how the csv file was opened using python code. It is then printed out with the main headings added to which the measurements refer. The formatting gives space for each measurement and removes the commas and spaces for a clearer view upon printout. The code can be found by clicking here.
 
 ```python
-# James Quintin 20/04/18
-# Analysis of the Fishers Iris Flower Dataset
-
-# Count the number of rows, counting the first column
-
 import numpy
 
 # read the file 
