@@ -13,7 +13,11 @@ firstcol = data[:,0]
 
 #takes the average/mean of the first numbers of the array
 meanData = numpy.mean(firstcol)
+x = numpy.min(firstcol)
+y = numpy.max(firstcol)
 
 print(meanData)
+print(x,y)
+
 
 
