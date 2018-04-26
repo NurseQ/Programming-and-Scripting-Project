@@ -16,44 +16,44 @@ The code below first splits the dataset into each column then divides each colum
 ### Statistical Values
 #### mean, min, max
 
-The average petal length of the Iris-Setosa is:  5.006
-The average petal length of the Iris-Versicolor is:  5.936
-The average petal length of the Iris-Virginica is:  6.588
-The minimum petal length of the Iris-Setosa is:  4.3
-The minimum petal length of the Iris-Versicolor is:  4.9
-The minimum petal length of the Iris-Virginica is:  4.9
-The maximum petal length of the Iris-Setosa is:  5.8
-The maximum petal length of the Iris-Versicolor is:  7.0
+The average petal length of the Iris-Setosa is:  5.006\
+The average petal length of the Iris-Versicolor is:  5.936\
+The average petal length of the Iris-Virginica is:  6.588\
+The minimum petal length of the Iris-Setosa is:  4.3\
+The minimum petal length of the Iris-Versicolor is:  4.9\
+The minimum petal length of the Iris-Virginica is:  4.9\
+The maximum petal length of the Iris-Setosa is:  5.8\
+The maximum petal length of the Iris-Versicolor is:  7.0\
 The maximum petal length of the Iris-Virginica is:  7.9
 
-The average petal width of the Iris-Setosa is:  3.418
-The average petal width of the Iris-Versicolor is:  2.77
-The average petal width of the Iris-Virginica is:  2.974
-The minimum petal width of the Iris-Setosa is:  2.3
-The minimum petal width of the Iris-Versicolor is:  2.0
-The minimum petal width of the Iris-Virginica is:  2.2
-The maximum petal width of the Iris-Setosa is:  4.4
-The maximum petal width of the Iris-Versicolor is:  3.4
+The average petal width of the Iris-Setosa is:  3.418\
+The average petal width of the Iris-Versicolor is:  2.77\
+The average petal width of the Iris-Virginica is:  2.974\
+The minimum petal width of the Iris-Setosa is:  2.3\
+The minimum petal width of the Iris-Versicolor is:  2.0\
+The minimum petal width of the Iris-Virginica is:  2.2\
+The maximum petal width of the Iris-Setosa is:  4.4\
+The maximum petal width of the Iris-Versicolor is:  3.4\
 The maximum petal width of the Iris-Virginica is:  3.8
 
-The average sepal length of the Iris-Setosa is:  1.464
-The average sepal length of the Iris-Versicolor is:  4.26
-The average sepal length of the Iris-Virginica is:  5.552
-The minimum sepal length of the Iris-Setosa is:  1.0
-The minimum sepal length of the Iris-Versicolor is:  3.0
-The minimum sepal length of the Iris-Virginica is:  4.5
-The maximum sepal length of the Iris-Setosa is:  1.9
-The maximum sepal length of the Iris-Versicolor is:  5.1
-The maximum sepal length of the Iris-Virginica is:  6.9
+The average sepal length of the Iris-Setosa is:  1.464\
+The average sepal length of the Iris-Versicolor is:  4.26\
+The average sepal length of the Iris-Virginica is:  5.552\
+The minimum sepal length of the Iris-Setosa is:  1.0\
+The minimum sepal length of the Iris-Versicolor is:  3.0\
+The minimum sepal length of the Iris-Virginica is:  4.5\
+The maximum sepal length of the Iris-Setosa is:  1.9\
+The maximum sepal length of the Iris-Versicolor is:  5.1\
+The maximum sepal length of the Iris-Virginica is:  6.9\
 
-The average sepal width of the Iris-Setosa is:  0.244
-The average sepal width of the Iris-Versicolor is:  1.326
-The average sepal width of the Iris-Virginica is:  2.026
-The minimum sepal width of the Iris-Setosa is:  0.1
-The minimum sepal width of the Iris-Versicolor is:  1.0
-The minimum sepal width of the Iris-Virginica is:  1.4
-The maximum sepal width of the Iris-Setosa is:  0.6
-The maximum sepal width of the Iris-Versicolor is:  1.8
+The average sepal width of the Iris-Setosa is:  0.244\
+The average sepal width of the Iris-Versicolor is:  1.326\
+The average sepal width of the Iris-Virginica is:  2.026\
+The minimum sepal width of the Iris-Setosa is:  0.1\
+The minimum sepal width of the Iris-Versicolor is:  1.0\
+The minimum sepal width of the Iris-Virginica is:  1.4\
+The maximum sepal width of the Iris-Setosa is:  0.6\
+The maximum sepal width of the Iris-Versicolor is:  1.8\
 The maximum sepal width of the Iris-Virginica is:  2.5
 
 ### Histograms
