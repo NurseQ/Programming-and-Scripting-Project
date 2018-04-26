@@ -5,7 +5,16 @@ The code refers to code written in python
 The dataset used in this project was introduced by Ronald Fisher in 1936 from his paper "The use of multiple measurements in taxonomic problems." This is considered to be best known database in pattern recognition literature [1]. Fishers Iris flower dataset contains measurements of three classes of Iris flower, the setosa, versicolor and virginica. Measurements from fifty samples are recorded from each of the flowers' petal length, petal width, sepal length and sepal width. Through a statistical method of linear discriminant analysis, Fisher used the measurements "to discriminate the species as distincly as possible[2]." The dataset can be opened or viewed in the repository in a folder named "datum", alternatively, please click here.  
 ## Investigations regarding the dataset in Python
 ### Opening csv files
-Fishers dataset can be downloaded as a csv file from this site. The code inserted below shows how the csv file was opened using python code. It is then printed out with the main headings added to which the measurements refer. The formatting gives space for each measurement and removes the commas and spaces for a clearer view upon printout. The code can be found by clicking here.
+Fishers dataset can be downloaded as a csv file from this site. The code inserted below shows how the csv file is opened using python code within this project. There are many ways to open or read csv files, please see exercise5.py in the repository for a different way of reading the same csv file and formatting the output for better readability.
+
+```python
+import numpy
+# read the file 
+data = numpy.genfromtxt("datum/iris.csv", delimiter=",")
+print(data)
+```
+### Counting the dataset
+The number of rows within Fishers dataset are counted using the code inserted below. The code takes the first column and uses the range function to count each of the rows. Opening the csv file from the repository will also show the number of rows and columns. 
 
 ```python
 import numpy
@@ -24,14 +33,47 @@ while i < len(firstcol):
     print(i, firstcol[i]) 
     i = i + 1
 ```
-### Counting the dataset
-The number of rows within Fishers dataset are counted using the code inserted below. The code takes the first column and uses the range function to count each of the rows. Opening the csv file from the repository will also show the number of rows and columns. 
-
 ### Splitting the columns
-The code below first splits the dataset into each column then divides each column by fifty. This will assign each group of fifty measurements into each flowers petal length, petal width, sepal length and sepal width. When the measurements are grouped into each flowers appropriate heading, further analysis can be employed. The inserted code under max, min, mean shows code used to calculate the maximum measurements, minimum measurements and the average of each group or heading. 
+The inserted code below first splits the dataset into each column then divides each column by fifty. This will assign each group of fifty measurements into each flowers petal length, petal width, sepal length and sepal width. When the measurements are grouped into each flowers appropriate heading, further analysis can be employed. The inserted code under max, min, mean shows code used to calculate the maximum measurements, minimum measurements and the average of each group or heading. 
+
+```python
+import numpy
+
+data = numpy.genfromtxt("datum/iris.csv", delimiter=",")
+
+# splits the array and takes the first 4 columns of the entire dataset
+firstcol = data[:,0]
+seccol = data[:,1]
+thirdcol = data[:,2]
+fourthcol = data[:,3]
+
+#The first column is the petal length and split into each flower
+setosaPlength = firstcol[0:50]
+versicolorPlength = firstcol [50:100]
+virginicaPlength = firstcol[100:150]
+
+
+```
 
 ### Statistical Values
+The inserted sample code shows code used to calculate the maximum measurements, minimum measurements and the average of each group or heading. 
+```python
+#calculate the mean, max, min of petal length of each flower
+meanDataA = numpy.mean(setosaPlength)
+meanDataB = numpy.mean(versicolorPlength)
+meanDataC = numpy.mean(virginicaPlength)
+
+minset = numpy.min(setosaPlength)
+minver = numpy.min(versicolorPlength)
+minvirg = numpy.min(virginicaPlength)
+
+maxset = numpy.max(setosaPlength)
+maxver = numpy.max(versicolorPlength)
+maxvirg = numpy.max(virginicaPlength)
+
+```
 #### mean, min, max
+The output statistical values from code above.
 
 The average petal length of the Iris-Setosa is:  5.006\
 The average petal length of the Iris-Versicolor is:  5.936\
