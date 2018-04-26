@@ -56,10 +56,13 @@ mp.hist(setosaSlength)
 # command to print out histogram chart
 mp.show()
 
-# plots each data point to visualize general sepal length of flower
+# plots each data point to visualize general sepal length of flower, adds color to each data point
 se = mp.scatter(x,setosaSlength,c="b")
 ve = mp.scatter(x,versicolorSlength,c="r")
 vi = mp.scatter(x, virginicaSlength, c="g")
+
+# creates a label along the y axis
 mp.ylabel("Sepal length in cm")
+# creates a legend in the graph with appropriate colors 
 mp.legend((se,ve,vi),("Setosa", "Versicolor", "Virginica"))
 mp.show()

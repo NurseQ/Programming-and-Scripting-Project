@@ -53,10 +53,13 @@ mp.hist(setosaPwidth)
 # command to print out histogram chart
 mp.show()
 
-# plots each data point to visualize general petal width of flower
+# plots each data point to visualize general petal width of flower, adds color to each data point
 se = mp.scatter(x,setosaPwidth,c="b")
 ve = mp.scatter(x,versicolorPwidth,c="r")
 vi = mp.scatter(x, virginicaPwidth, c="g")
+
+# creates a label along the y axis
 mp.ylabel("Petal width in cm")
+# creates a legend in the graph with appropriate colors 
 mp.legend((se,ve,vi),("Setosa", "Versicolor", "Virginica"))
 mp.show()
