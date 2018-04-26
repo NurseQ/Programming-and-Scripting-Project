@@ -143,8 +143,6 @@ The maximum sepal width of the Iris-Setosa is:  0.6\
 The maximum sepal width of the Iris-Versicolor is:  1.8\
 The maximum sepal width of the Iris-Virginica is:  2.5
 
-### Histograms
- 
 ## Classification process
 The paper by Fisher was found to be mathematically challenging to use as a basis for the conduct of this project. The programming skills of the researcher was also deficient to offer more complex solutions to try and classify the flowers. The paper by Hoey [3] offered a simpler solution and less complicated method to classify the flowers from the dataset. Hoey looked at the dataset and drew patterns to see how each of the class of flowers differed from each other. This project attempts to use Hoey's method to produce a distinction between each of the flowers. The conclusions drawn from this project are generalizations and would require more advanced statistical analysis including standard deviation and variance to offer more accurate distinctions. The use of other python data analytics libraries might also be needed to output more intuitive graphical representation or graphs for a more detailed analysis of the dataset.
 
@@ -179,11 +177,9 @@ Figures 1 and 2 show more overlap in the measurements in the dataset which is re
 
 ![Scatter plot sepal width](https://github.com/NurseQ/Project-Iris-Flower-Dataset/blob/master/Images/Scatter%20sepal%20width.png)
 
-
-
-
   
-## Suppporting tables and graphs
+### Histograms
+Other supporting graphs used in the project are a histograms that also show the underlying frequency distribution of the dataset. Histograms allow visualization of the shape of continous data including skewness and outliers within the dataset. 
 
 ## References
 [2] UCI Machine Learning Repository, "Iris Data Set," [Online]. Availabale: https://archive.ics.uci.edu/ml/datasets/iris. [Accessed: April 11,2018].
