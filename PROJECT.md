@@ -213,6 +213,23 @@ Other supporting graphs used in the project are histograms, which also show the 
 
 ![Versicolor sepal width histogram](https://github.com/NurseQ/Project-Iris-Flower-Dataset/blob/master/Images/versD.png)
 
+**Virginica petal length histogram** 
+
+![Virginica petal length histogram](https://github.com/NurseQ/Project-Iris-Flower-Dataset/blob/master/Images/virA.png)
+
+**Virginica petal width histogram** 
+
+![Virginica petal width histogram](https://github.com/NurseQ/Project-Iris-Flower-Dataset/blob/master/Images/virB.png)
+
+**Virginica sepal length histogram** 
+
+![Virginica sepal length histogram](https://github.com/NurseQ/Project-Iris-Flower-Dataset/blob/master/Images/virC.png)
+
+**Virginica sepal width histogram** 
+
+![Virginica sepal width histogram](https://github.com/NurseQ/Project-Iris-Flower-Dataset/blob/master/Images/virD.png)
+
+
 ## References
 [2] UCI Machine Learning Repository, "Iris Data Set," [Online]. Availabale: https://archive.ics.uci.edu/ml/datasets/iris. [Accessed: April 11,2018].
 
