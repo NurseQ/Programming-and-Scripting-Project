@@ -7,6 +7,23 @@ The dataset used in this project was introduced by Ronald Fisher in 1936 from hi
 ### Opening csv files
 Fishers dataset can be downloaded as a csv file from this site. The code inserted below shows how the csv file was opened using python code. It is then printed out with the main headings added to which the measurements refer. The formatting gives space for each measurement and removes the commas and spaces for a clearer view upon printout. The code can be found by clicking here.
 
+```python
+import numpy
+
+# read the file 
+data = numpy.genfromtxt("datum/iris.csv", delimiter=",")
+
+# splits the array and takes the first column of the entire dataset
+firstcol = data[:,0]
+
+i = 0
+
+# loop to count the length of the first column
+while i < len(firstcol):
+    # print i and whatever i is in the list
+    print(i, firstcol[i]) 
+    i = i + 1
+```
 ### Counting the dataset
 The number of rows within Fishers dataset are counted using the code inserted below. The code takes the first column and uses the range function to count each of the rows. Opening the csv file from the repository will also show the number of rows and columns. 
 
@@ -59,7 +76,9 @@ The maximum sepal width of the Iris-Virginica is:  2.5
 ### Histograms
  
 ## Classification process
-The paper by Fisher was found to be mathematically challenging to use as a basis for the conduct of this project. The programming skills of the researcher was also deficient to offer more complex solutions to try and classify the flowers. The paper by Hoey [3] offered a simpler solution and less complicated method to classify the flowers from the dataset. Hoey looked at the dataset and drew patterns to see how each of the class of flowers differed from each other. This project attempts to use Hoey's method to produce a distinction between each of the flowers. The conclusions drawn from this project are generalizations and would require more advanced statistical analysis including standard deviation and variance to offer more accurate distinctions. The use of other python data analytics libraries might also be needed to output more intuitive graphical representation or graphs for a more detailed analysis of the dataset. Figures 1 and 2 show more overlap in the measurements in the dataset which is reflected with narrower distances between the statistical values. Figures 3 and 4 show more distinct separation and is also reflected in the measurements of statistical values.  
+The paper by Fisher was found to be mathematically challenging to use as a basis for the conduct of this project. The programming skills of the researcher was also deficient to offer more complex solutions to try and classify the flowers. The paper by Hoey [3] offered a simpler solution and less complicated method to classify the flowers from the dataset. Hoey looked at the dataset and drew patterns to see how each of the class of flowers differed from each other. This project attempts to use Hoey's method to produce a distinction between each of the flowers. The conclusions drawn from this project are generalizations and would require more advanced statistical analysis including standard deviation and variance to offer more accurate distinctions. The use of other python data analytics libraries might also be needed to output more intuitive graphical representation or graphs for a more detailed analysis of the dataset.
+
+Figures 1 and 2 show more overlap in the measurements in the dataset which is reflected with narrower distances between the statistical values. Figures 3 and 4 show more distinct separation and is also reflected in the measurements of statistical values.  
 
 **Figure 1** - This scatter plot compares the petal length with the classification of flower. Conclusions drawn from figure 1 are listed below and the maximum, minimum and mean support the listed conclusions. 
 1. The Iris Setosa has the shortest petal with a some overlap with the second shortest, the Iris Versicolor. There is also a few overlap with Virginica.
