@@ -18,15 +18,31 @@ virginicaPlength = firstcol[100:150]
 
 
 
-#calculate the mean of petal length of each flower
+#calculate the mean, max, min of petal length of each flower
 meanDataA = numpy.mean(setosaPlength)
 meanDataB = numpy.mean(versicolorPlength)
 meanDataC = numpy.mean(virginicaPlength)
+
+minset = numpy.min(setosaPlength)
+minver = numpy.min(versicolorPlength)
+minvirg = numpy.min(virginicaPlength)
+
+maxset = numpy.max(setosaPlength)
+maxver = numpy.max(versicolorPlength)
+maxvirg = numpy.max(virginicaPlength)
 
 
 print("The average petal length of the Iris-Setosa is: ",  meanDataA)
 print("The average petal length of the Iris-Versicolor is: ",  meanDataB)
 print("The average petal length of the Iris-Virginica is: ",  meanDataC)
+
+print("The minimum petal length of the Iris-Setosa is: ",  minset)
+print("The minimum petal length of the Iris-Versicolor is: ",  minver)
+print("The minimum petal length of the Iris-Virginica is: ",  minvirg)
+
+print("The maximum petal length of the Iris-Setosa is: ",  maxset)
+print("The maximum petal length of the Iris-Versicolor is: ",  maxver)
+print("The maximum petal length of the Iris-Virginica is: ",  maxvirg)
 
 # imported library for visualization of data
 import matplotlib.pyplot as mp

@@ -11,22 +11,38 @@ seccol = data[:,1]
 thirdcol = data[:,2]
 fourthcol = data[:,3]
 
-#The first column is the petal length and split into each flower
+#The first column is the sepal length and split into each flower
 setosaSlength = thirdcol[0:50]
 versicolorSlength = thirdcol [50:100]
 virginicaSlength = thirdcol[100:150]
 
 
 
-#calculate the mean of petal length of each flower
+#calculate the mean, max, min of sepal length of each flower
 meanDataA = numpy.mean(setosaSlength)
 meanDataB = numpy.mean(versicolorSlength)
 meanDataC = numpy.mean(virginicaSlength)
 
+minset = numpy.min(setosaSlength)
+minver = numpy.min(versicolorSlength)
+minvirg = numpy.min(virginicaSlength)
 
-print("The average petal length of the Iris-Setosa is: ",  meanDataA)
-print("The average petal length of the Iris-Versicolor is: ",  meanDataB)
-print("The average petal length of the Iris-Virginica is: ",  meanDataC)
+maxset = numpy.max(setosaSlength)
+maxver = numpy.max(versicolorSlength)
+maxvirg = numpy.max(virginicaSlength)
+
+
+print("The average sepal length of the Iris-Setosa is: ",  meanDataA)
+print("The average sepal length of the Iris-Versicolor is: ",  meanDataB)
+print("The average sepal length of the Iris-Virginica is: ",  meanDataC)
+
+print("The minimum sepal length of the Iris-Setosa is: ",  minset)
+print("The minimum sepal length of the Iris-Versicolor is: ",  minver)
+print("The minimum sepal length of the Iris-Virginica is: ",  minvirg)
+
+print("The maximum sepal length of the Iris-Setosa is: ",  maxset)
+print("The maximum sepal length of the Iris-Versicolor is: ",  maxver)
+print("The maximum sepal length of the Iris-Virginica is: ",  maxvirg)
 
 # imported library for visualization of data
 import matplotlib.pyplot as mp
@@ -38,7 +54,7 @@ mp.hist(setosaSlength)
 # command to print out histogram chart
 mp.show()
 
-# plots each data point to visualize general petal length of flower
+# plots each data point to visualize general sepal length of flower
 se = mp.scatter(x,setosaSlength,c="b")
 ve = mp.scatter(x,versicolorSlength,c="r")
 vi = mp.scatter(x, virginicaSlength, c="g")
