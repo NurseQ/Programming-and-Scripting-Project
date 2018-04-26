@@ -1,6 +1,6 @@
 # PROJECT 2018
 ## PROGRAMMING AND SCRIPTING
-The code refers to code written in python
+This repository contains analysis of Fisher's Iris dataset. It includes research of the dataset, analysis, documentation and code written in the Python programming language. This is a project for the course Programming and Scripting, in partial fulfillment of the requirements for Higher Diploma in Data Analytics.
 ## Background and Summary of Fishers Iris Flower Dataset
 The dataset used in this project was introduced by Ronald Fisher in 1936 from his paper "The use of multiple measurements in taxonomic problems." This is considered to be best known database in pattern recognition literature [1]. Fishers Iris flower dataset contains measurements of three classes of Iris flower, the setosa, versicolor and virginica. Measurements from fifty samples are recorded from each of the flowers' petal length, petal width, sepal length and sepal width. Through a statistical method of linear discriminant analysis, Fisher used the measurements "to discriminate the species as distincly as possible[2]." The dataset can be opened or viewed in the repository in a folder named "datum", alternatively, please click here.  
 ## Investigations regarding the dataset in Python
