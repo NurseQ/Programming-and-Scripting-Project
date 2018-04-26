@@ -231,7 +231,7 @@ Other supporting graphs used in the project are histograms, which also show the 
 
 
 ## References
-[2] UCI Machine Learning Repository, "Iris Data Set," [Online]. Availabale: https://archive.ics.uci.edu/ml/datasets/iris. [Accessed: April 11,2018].
+[2] UCI Machine Learning Repository, "Iris Data Set," [Online]. Available: https://archive.ics.uci.edu/ml/datasets/iris. [Accessed: April 11,2018].
 
 [1] R. A. Fisher, "The use of multiple measurements in taxonomic problems," *The Annals of Human Genetics, 1936,* [Online] Available: https://onlinelibrary.wiley.com/doi/pdf/10.1111/j.1469-1809.1936.tb02137.x. [Accessed: April 11, 2018].
 
