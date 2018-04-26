@@ -55,6 +55,34 @@ virginicaPlength = firstcol[100:150]
 
 ```
 
+### Python libraries
+As seen from the sample snippets of code above, the numpy python library is imported. For additional functionality and graphical visualization, matplolib.pyplot is imported and used in the code. Please see example inserted below. 
+```python
+# imported library for visualization of data
+import matplotlib.pyplot as mp
+
+# provides the x axis with a range up to 50
+x = range(0,50)
+
+# command for plotting petal length into a histogram
+# argument can be changed to either flower
+mp.hist(setosaPlength)
+# command to print out histogram chart
+mp.show()
+
+# plots each data point to visualize general petal length of flower, adds color to each data point
+se = mp.scatter(x,setosaPlength,c="b")
+ve = mp.scatter(x,versicolorPlength,c="r")
+vi = mp.scatter(x, virginicaPlength, c="g")
+
+# creates a label along the y axis
+mp.ylabel("Petal length in cm")
+
+# creates a legend in the graph with appropriate colors 
+mp.legend((se,ve,vi),("Setosa", "Versicolor", "Virginica"))
+mp.show()
+```
+
 ### Statistical Values
 The inserted sample code shows code used to calculate the maximum measurements, minimum measurements and the average of each group or heading. 
 ```python
