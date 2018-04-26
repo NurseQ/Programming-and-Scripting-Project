@@ -1,5 +1,5 @@
 # James Quintin 03/03/18
-# Exercise 5 
+# Open and printout a csv file
 
 # command to open file without need for closing the file
 with open("datum/iris.csv") as f:
