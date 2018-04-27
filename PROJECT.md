@@ -10,7 +10,7 @@ The dataset used in this project was introduced by Ronald Fisher in 1936 from hi
 This section presents the steps taken to analyse the data set. A brief narrative to explain the procedure and extracts of code are inserted to present how the data set is manipulated. A link to the whole code is provided for each section.  
 
 ### 2a. Opening csv files
-Fisher's dataset can be downloaded as a csv file from [UCI machine learning repository](http://archive.ics.uci.edu/ml/machine-learning-databases/iris/). The code inserted below shows how the csv file is opened using python code within this project. There are many ways to open or read csv files, please see [exercise5](https://github.com/NurseQ/Project-Iris-Flower-Dataset/blob/master/exercise5.py).py in the repository for a different way of reading the same csv file and formatting the output for better readability. 
+Fisher's dataset can be downloaded as a csv file from [UCI machine learning repository](http://archive.ics.uci.edu/ml/machine-learning-databases/iris/). The code inserted below shows how the csv file is opened using python code within this project. There are many ways to open or read csv files, please see [exercise5.py](https://github.com/NurseQ/Project-Iris-Flower-Dataset/blob/master/exercise5.py) in the repository for a different way of reading the same csv file and formatting the output for better readability. 
 
 ```python
 import numpy
