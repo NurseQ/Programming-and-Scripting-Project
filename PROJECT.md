@@ -184,7 +184,7 @@ The maximum sepal length of the Iris-Virginica is:  6.9
 
 ![Scatter plot sepal length](https://github.com/NurseQ/Project-Iris-Flower-Dataset/blob/master/Images/Scatter%20sepal%20length.png)
 
-**Figure 4** - This scatter plot compares the sepal width with the classification of flower. Observations drawn from figure 3 are listed below and the maximum, minimum and mean support the listed conclusions. See the code [scatsepalwid](https://github.com/NurseQ/Project-Iris-Flower-Dataset/blob/master/scatsepalwid.py)
+**Figure 4** - This scatter plot compares the sepal width with the classification of flower. Observations drawn from figure 3 are listed below and the maximum, minimum and mean support the listed conclusions. See the code [scatsepalwid.py](https://github.com/NurseQ/Project-Iris-Flower-Dataset/blob/master/scatsepalwid.py)
 1. The Iris Setosa has the narrowest petal with clear distinction from the other flowers.
 2. The Iris Versicolor has a medium sepal width in relation to the other flowers.
 3. The Iris Virginica has the widest sepals with very little overlap with the Iris Versicolor.
@@ -203,7 +203,7 @@ The maximum sepal width of the Iris-Virginica is:  2.5
 
 ![Scatter plot sepal width](https://github.com/NurseQ/Project-Iris-Flower-Dataset/blob/master/Images/Scatter%20sepal%20width.png)
 
-**Figure 5** - Scatter plot of the Iris Setosa, plotting petal length on the x axis and petal width on the y axis . It is expected that further anlysis will use similar plots and placing the flower species in the same graph.
+**Figure 5** - Scatter plot of the Iris Setosa, plotting petal length on the x axis and petal width on the y axis . It is expected that further anlysis will use similar plots and placing the flower species in the same graph. The code is in [setosa.py](https://github.com/NurseQ/Project-Iris-Flower-Dataset/blob/master/setosa.py).
 
 ![petal length vs width](https://github.com/NurseQ/Project-Iris-Flower-Dataset/blob/master/Images/Scatter%20plot%20petal%20length%20vs%20width.png)
 
