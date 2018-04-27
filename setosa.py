@@ -31,7 +31,6 @@ print("The average of sepal width of the Iris-Setosa is: ", meanDataD)
 
 # imported library for visualization of data
 import matplotlib.pyplot as mp
-y = range(0,50)
 
 # command for plotting column a (petal length) into a histogram
 # argument can be changed to either column a, b, c or d
@@ -40,8 +39,10 @@ mp.hist(a)
 mp.show()
 
 # plots petal length on x axis and petal width on y axis
-mp.scatter(a,y,c="b")
-mp.scatter(b,y,c="r")
-mp.xlabel("Sepal length in cm")
-mp.ylabel("Flower ")
+# arguments can be changed to sepal length and width 
+mp.scatter(a,b,c="r")
+
+
+mp.xlabel("petal length in cm")
+mp.ylabel("petal width in cm ")
 mp.show()
