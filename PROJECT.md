@@ -121,15 +121,6 @@ maxver = numpy.max(versicolorPlength)
 maxvirg = numpy.max(virginicaPlength)
 
 ```
-### 2f. mean, min, max
-The output statistical values from code above.
-
-
-
-
-
-
-
 
 ## 3. Observations and Analysis
 The paper by Fisher was found to be mathematically challenging to use as a basis for the conduct of this project. The programming skills of the researcher was also deficient to offer more complex solutions to try and classify the flowers. The paper by Hoey [3] offered a simpler solution and less complicated method to classify the flowers from the dataset. Hoey looked at the dataset and drew patterns to see how each of the class of flowers differed from each other. This project attempts to use Hoey's method to produce a distinction between each of the flowers. The conclusions drawn from this project are generalizations and would require more advanced statistical analysis including standard deviation and variance to offer more accurate distinctions. The use of other python data analytics libraries might also be needed to output more intuitive graphical representation or graphs for a more detailed analysis of the dataset.
@@ -142,6 +133,7 @@ Figures 1 and 2 show more overlap in the measurements in the dataset which is re
 3. The Iris Virginica has the longest petals with much overlap with Versicolor.
 
 **Statistical values**
+
 The average petal length of the Iris-Setosa is:  5.006\
 The average petal length of the Iris-Versicolor is:  5.936\
 The average petal length of the Iris-Virginica is:  6.588\
@@ -161,6 +153,7 @@ The maximum petal length of the Iris-Virginica is:  7.9
 3. The Iris Versicolor has the narrowest petals but has a close overlap with Virginica and some overlap with Setosa.
 
 **Statistical values**
+
 The average petal width of the Iris-Setosa is:  3.418\
 The average petal width of the Iris-Versicolor is:  2.77\
 The average petal width of the Iris-Virginica is:  2.974\
@@ -178,6 +171,7 @@ The maximum petal width of the Iris-Virginica is:  3.8
 3. The Iris Virginica has the longest sepal length with little overlap with the Iris Versicolor.
 
 **Statistical values**
+
 The average sepal length of the Iris-Setosa is:  1.464\
 The average sepal length of the Iris-Versicolor is:  4.26\
 The average sepal length of the Iris-Virginica is:  5.552\
@@ -196,6 +190,7 @@ The maximum sepal length of the Iris-Virginica is:  6.9
 3. The Iris Virginica has the widest sepals with very little overlap with the Iris Versicolor.
 
 **Statistical values**
+
 The average sepal width of the Iris-Setosa is:  0.244\
 The average sepal width of the Iris-Versicolor is:  1.326\
 The average sepal width of the Iris-Virginica is:  2.026\
