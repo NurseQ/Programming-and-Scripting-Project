@@ -1,11 +1,16 @@
 # PROJECT 2018
-## PROGRAMMING AND SCRIPTING
+
 This repository contains analysis of Fisher's Iris dataset. It includes research of the dataset, analysis, documentation and code written in the Python programming language. This is a project for the course Programming and Scripting, in partial fulfillment of the requirements for Higher Diploma in Data Analytics.
-## Background and Summary of Fishers Iris Flower Dataset
-The dataset used in this project was introduced by Ronald Fisher in 1936 from his paper "The use of multiple measurements in taxonomic problems." This is considered to be best known database in pattern recognition literature [1]. Fishers Iris flower dataset contains measurements of three classes of Iris flower, the setosa, versicolor and virginica. Measurements from fifty samples are recorded from each of the flowers' petal length, petal width, sepal length and sepal width. Through a statistical method of linear discriminant analysis, Fisher used the measurements "to discriminate the species as distincly as possible[2]." The dataset can be opened or viewed in the repository in a folder named "datum", alternatively, please click here.  
-## Investigations regarding the dataset in Python
-### Opening csv files
-Fishers dataset can be downloaded as a csv file from this site. The code inserted below shows how the csv file is opened using python code within this project. There are many ways to open or read csv files, please see exercise5.py in the repository for a different way of reading the same csv file and formatting the output for better readability.
+
+## 1. Background and Summary of Fishers Iris Flower Dataset
+
+The dataset used in this project was introduced by Ronald Fisher in 1936 from his paper "The use of multiple measurements in taxonomic problems." This is considered to be best known database in pattern recognition literature [1]. Fishers Iris flower dataset contains measurements of three classes of Iris flower, the setosa, versicolor and virginica. Measurements from fifty samples are recorded from each of the flowers' petal length, petal width, sepal length and sepal width. Through a statistical method of linear discriminant analysis, Fisher used the measurements "to discriminate the species as distincly as possible[2]." The dataset can be opened or viewed in the repository in a folder named "datum", alternatively, please click here. 
+
+## 2. Investigations regarding the dataset in Python
+This section presents the steps taken to analyse the data set. A brief narrative to explain the procedure and extracts of code are inserted to present how the data set is manipulated. A link to the whole code is provided for each section.  
+
+### 2a. Opening csv files
+Fisher's dataset can be downloaded as a csv file from [UCI machine learning repository](http://archive.ics.uci.edu/ml/machine-learning-databases/iris/). The code inserted below shows how the csv file is opened using python code within this project. There are many ways to open or read csv files, please see [exercise5](https://github.com/NurseQ/Project-Iris-Flower-Dataset/blob/master/exercise5.py).py in the repository for a different way of reading the same csv file and formatting the output for better readability. 
 
 ```python
 import numpy
@@ -13,8 +18,8 @@ import numpy
 data = numpy.genfromtxt("datum/iris.csv", delimiter=",")
 print(data)
 ```
-### Counting the dataset
-The number of rows within Fishers dataset are counted using the code inserted below. The code takes the first column and uses the range function to count each of the rows. Opening the csv file from the repository will also show the number of rows and columns. 
+### 2b. Counting the dataset
+The number of rows within Fishers dataset are counted using the code inserted below. The code takes the first column and uses the range function to count each of the rows. Opening the csv file from the repository will also show the number of rows and columns. The code in the repository is [count.py](https://github.com/NurseQ/Project-Iris-Flower-Dataset/blob/master/count.py).  
 
 ```python
 import numpy
@@ -33,8 +38,8 @@ while i < len(firstcol):
     print(i, firstcol[i]) 
     i = i + 1
 ```
-### Splitting the columns
-The inserted code below first splits the dataset into each column then divides each column by fifty. This will assign each group of fifty measurements into each flowers petal length, petal width, sepal length and sepal width. When the measurements are grouped into each flowers appropriate heading, further analysis can be employed.  
+### 2c. Splitting the columns
+The inserted code below first splits the dataset into each column then divides each column by fifty. This will assign each group of fifty measurements into each flowers petal length, petal width, sepal length and sepal width. When the measurements are grouped into each flowers appropriate heading, further analysis can be employed. See this code in the repository [scatpetlength.py](https://github.com/NurseQ/Project-Iris-Flower-Dataset/blob/master/scatpetlength.py).   
 
 ```python
 import numpy
@@ -55,8 +60,8 @@ virginicaPlength = firstcol[100:150]
 
 ```
 
-### Python libraries
-As seen from the sample snippets of code above, the numpy python library is imported. For additional functionality and graphical visualization, matplolib.pyplot is imported and used in the code. Please see example inserted below. 
+### 2d. Python libraries
+As seen from the sample snippets of code above, the numpy python library is imported. For additional functionality and graphical visualization, matplolib.pyplot is imported and used in the code. Please see example inserted below. See this code in the repository [scatpetlength.py](https://github.com/NurseQ/Project-Iris-Flower-Dataset/blob/master/scatpetlength.py).   
 ```python
 # imported library for visualization of data
 import matplotlib.pyplot as mp
@@ -83,8 +88,8 @@ mp.legend((se,ve,vi),("Setosa", "Versicolor", "Virginica"))
 mp.show()
 ```
 
-### Statistical Values
-The inserted sample code shows code used to calculate the maximum measurements, minimum measurements and the average of each group or heading. 
+### 2e. Statistical Values
+The inserted sample code shows code used to calculate the maximum measurements, minimum measurements and the average of each group or heading. See this code in the repository [scatpetlength.py](https://github.com/NurseQ/Project-Iris-Flower-Dataset/blob/master/scatpetlength.py).   
 ```python
 #calculate the mean, max, min of petal length of each flower
 meanDataA = numpy.mean(setosaPlength)
@@ -100,7 +105,7 @@ maxver = numpy.max(versicolorPlength)
 maxvirg = numpy.max(virginicaPlength)
 
 ```
-#### mean, min, max
+### 2f. mean, min, max
 The output statistical values from code above.
 
 The average petal length of the Iris-Setosa is:  5.006\
@@ -143,7 +148,7 @@ The maximum sepal width of the Iris-Setosa is:  0.6\
 The maximum sepal width of the Iris-Versicolor is:  1.8\
 The maximum sepal width of the Iris-Virginica is:  2.5
 
-## Classification process
+## 3. Classification process
 The paper by Fisher was found to be mathematically challenging to use as a basis for the conduct of this project. The programming skills of the researcher was also deficient to offer more complex solutions to try and classify the flowers. The paper by Hoey [3] offered a simpler solution and less complicated method to classify the flowers from the dataset. Hoey looked at the dataset and drew patterns to see how each of the class of flowers differed from each other. This project attempts to use Hoey's method to produce a distinction between each of the flowers. The conclusions drawn from this project are generalizations and would require more advanced statistical analysis including standard deviation and variance to offer more accurate distinctions. The use of other python data analytics libraries might also be needed to output more intuitive graphical representation or graphs for a more detailed analysis of the dataset.
 
 Figures 1 and 2 show more overlap in the measurements in the dataset which is reflected with narrower distances between the statistical values. Figures 3 and 4 show more distinct separation and is also reflected in the measurements of statistical values.  
@@ -178,7 +183,7 @@ Figures 1 and 2 show more overlap in the measurements in the dataset which is re
 ![Scatter plot sepal width](https://github.com/NurseQ/Project-Iris-Flower-Dataset/blob/master/Images/Scatter%20sepal%20width.png)
 
   
-### Histograms
+### 3a. Histograms
 Other supporting graphs used in the project are histograms, which also show the underlying frequency distribution of the dataset. Histograms allow visualization of the shape of continous data including skewness and outliers within the dataset. 
 
 **Setosa petal length histogram** 
