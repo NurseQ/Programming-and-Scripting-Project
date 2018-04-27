@@ -1,6 +1,6 @@
 # IRIS FLOWER DATA SET PROJECT
 
-This repository contains analysis of Fisher's Iris dataset. It includes research of the dataset, analysis, documentation and code written in the Python programming language. This is a project for the course Programming and Scripting, in partial fulfillment of the requirements for Higher Diploma in Data Analytics.
+This project contains analysis of Fisher's Iris dataset. It includes research of the dataset, analysis, documentation and code written in the Python programming language. This is a project for the course Programming and Scripting, in partial fulfillment of the requirements for Higher Diploma in Data Analytics.
 
 ## 1. Summary of Fishers Iris Flower Dataset
 
