@@ -61,7 +61,9 @@ virginicaPlength = firstcol[100:150]
 ```
 
 ### 2d. Python libraries
-As seen from the sample snippets of code above, the numpy python library is imported. For additional functionality and graphical visualization, matplolib.pyplot is imported and used in the code. Please see example inserted below. See this code in the repository [scatpetlength.py](https://github.com/NurseQ/Project-Iris-Flower-Dataset/blob/master/scatpetlength.py).   
+As seen from the sample snippets of code above, the numpy python library is imported. For additional functionality and graphical visualization, matplolib.pyplot is imported and used in the code. Please see two examples inserted below. Code 1 shows use of a plot placing flower measurements in the y axis and the sample number on the x axis. Code 2 shows the petal length of the Iris setosa on the x axis and the petal width on the y axis. See code 1 in the repository [scatpetlength.py](https://github.com/NurseQ/Project-Iris-Flower-Dataset/blob/master/scatpetlength.py), code 2 [setosa.py](https://github.com/NurseQ/Project-Iris-Flower-Dataset/blob/master/setosa.py). 
+
+**Code 1**
 ```python
 # imported library for visualization of data
 import matplotlib.pyplot as mp
@@ -85,6 +87,20 @@ mp.ylabel("Petal length in cm")
 
 # creates a legend in the graph with appropriate colors 
 mp.legend((se,ve,vi),("Setosa", "Versicolor", "Virginica"))
+mp.show()
+```
+
+**Code 2**
+
+```python
+
+# plots petal length on x axis and petal width on y axis
+# arguments can be changed to sepal length and width 
+mp.scatter(a,b,c="r")
+
+
+mp.xlabel("petal length in cm")
+mp.ylabel("petal width in cm ")
 mp.show()
 ```
 
@@ -148,12 +164,12 @@ The maximum sepal width of the Iris-Setosa is:  0.6\
 The maximum sepal width of the Iris-Versicolor is:  1.8\
 The maximum sepal width of the Iris-Virginica is:  2.5
 
-## 3. Classification process
+## 3. Observations and Analysis
 The paper by Fisher was found to be mathematically challenging to use as a basis for the conduct of this project. The programming skills of the researcher was also deficient to offer more complex solutions to try and classify the flowers. The paper by Hoey [3] offered a simpler solution and less complicated method to classify the flowers from the dataset. Hoey looked at the dataset and drew patterns to see how each of the class of flowers differed from each other. This project attempts to use Hoey's method to produce a distinction between each of the flowers. The conclusions drawn from this project are generalizations and would require more advanced statistical analysis including standard deviation and variance to offer more accurate distinctions. The use of other python data analytics libraries might also be needed to output more intuitive graphical representation or graphs for a more detailed analysis of the dataset.
 
 Figures 1 and 2 show more overlap in the measurements in the dataset which is reflected with narrower distances between the statistical values. Figures 3 and 4 show more distinct separation and is also reflected in the measurements of statistical values.  
 
-**Figure 1** - This scatter plot compares the petal length with the classification of flower. Conclusions drawn from figure 1 are listed below and the maximum, minimum and mean support the listed conclusions. See the code [scatpetlength.py](https://github.com/NurseQ/Project-Iris-Flower-Dataset/blob/master/scatpetlength.py)
+**Figure 1** - This scatter plot compares the petal length with the classification of flower. Observations drawn from figure 1 are listed below and the maximum, minimum and mean support the listed conclusions. See the code [scatpetlength.py](https://github.com/NurseQ/Project-Iris-Flower-Dataset/blob/master/scatpetlength.py).
 1. The Iris Setosa has the shortest petal with a some overlap with the second shortest, the Iris Versicolor. There is also a few overlap with Virginica.
 2. The Iris Versicolor has a medium petal in relation to the other flowers but with more overlap with Virginica.
 3. The Iris Virginica has the longest petals with much overlap with Versicolor.
@@ -161,26 +177,30 @@ Figures 1 and 2 show more overlap in the measurements in the dataset which is re
 ![Scatter plot of petal length](https://github.com/NurseQ/Project-Iris-Flower-Dataset/blob/master/Images/Scatter%20petal%20length.png)
 
 
-**Figure 2** - This scatter plot compares the petal width with the classification of flower. There appears to be more overlap in this figure but conclusions can still be drawn from the figure. This is also reflected in the values from the maximum, minimum and mean where the values are numerically closer to each other. See the code [scatpetwidth.py](https://github.com/NurseQ/Project-Iris-Flower-Dataset/blob/master/scatpetwidth.py)
+**Figure 2** - This scatter plot compares the petal width with the classification of flower. There appears to be more overlap in this figure but conclusions can still be drawn from the figure. This is also reflected in the values from the maximum, minimum and mean where the values are numerically closer to each other. See the code [scatpetwidth.py](https://github.com/NurseQ/Project-Iris-Flower-Dataset/blob/master/scatpetwidth.py).
 1. The Iris Setosa has the widest petal but show much overlap with Virginica and some overlap with Versicolor.
 2. The Iris Virginica has a medium petal in relation to the other flowers, measurements overlap with both other flowers.
 3. The Iris Versicolor has the narrowest petals but has a close overlap with Virginica and some overlap with Setosa.
 
 ![Scatter plot petal width](https://github.com/NurseQ/Project-Iris-Flower-Dataset/blob/master/Images/Scatter%20petal%20width.png)
 
-**Figure 3** - This scatter plot compares the sepal length with the classification of flower. Conclusions drawn from figure 3 are listed below and the maximum, minimum and mean support the listed conclusions. See the code [scatsepallen.py](https://github.com/NurseQ/Project-Iris-Flower-Dataset/blob/master/scatsepallen.py)
+**Figure 3** - This scatter plot compares the sepal length with the classification of flower. Observations drawn from figure 3 are listed below and the maximum, minimum and mean support the listed conclusions. See the code [scatsepallen.py](https://github.com/NurseQ/Project-Iris-Flower-Dataset/blob/master/scatsepallen.py).
 1. The Iris Setosa has the shortest sepal length with no overlap from the other flowers.
 2. The Iris Versicolor has a medium sepal length in relation to the other flowers.
 3. The Iris Virginica has the longest sepal length with little overlap with the Iris Versicolor.
 
 ![Scatter plot sepal length](https://github.com/NurseQ/Project-Iris-Flower-Dataset/blob/master/Images/Scatter%20sepal%20length.png)
 
-**Figure 4** - This scatter plot compares the sepal width with the classification of flower. Conclusions drawn from figure 3 are listed below and the maximum, minimum and mean support the listed conclusions. See the code [scatsepalwid](https://github.com/NurseQ/Project-Iris-Flower-Dataset/blob/master/scatsepalwid.py)
+**Figure 4** - This scatter plot compares the sepal width with the classification of flower. Observations drawn from figure 3 are listed below and the maximum, minimum and mean support the listed conclusions. See the code [scatsepalwid](https://github.com/NurseQ/Project-Iris-Flower-Dataset/blob/master/scatsepalwid.py)
 1. The Iris Setosa has the narrowest petal with clear distinction from the other flowers.
 2. The Iris Versicolor has a medium sepal width in relation to the other flowers.
 3. The Iris Virginica has the widest sepals with very little overlap with the Iris Versicolor.
 
 ![Scatter plot sepal width](https://github.com/NurseQ/Project-Iris-Flower-Dataset/blob/master/Images/Scatter%20sepal%20width.png)
+
+**Figure 5** - Scatter plot of the Iris Setosa, plotting petal length on the x axis and petal width on the y axis . It is expected that further anlysis will use similar plots and placing the flower species in the same graph.
+
+![petal length vs width](https://github.com/NurseQ/Project-Iris-Flower-Dataset/blob/master/Images/Scatter%20plot%20petal%20length%20vs%20width.png)
 
   
 ### 3a. Histograms
