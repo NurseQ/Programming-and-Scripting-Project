@@ -1,10 +1,10 @@
-# PROJECT 2018
+# IRIS FLOWER DATA SET PROJECT
 
 This repository contains analysis of Fisher's Iris dataset. It includes research of the dataset, analysis, documentation and code written in the Python programming language. This is a project for the course Programming and Scripting, in partial fulfillment of the requirements for Higher Diploma in Data Analytics.
 
-## 1. Background and Summary of Fishers Iris Flower Dataset
+## 1. Summary of Fishers Iris Flower Dataset
 
-The dataset used in this project was introduced by Ronald Fisher in 1936 from his paper "The use of multiple measurements in taxonomic problems." This is considered to be best known database in pattern recognition literature [1]. Fishers Iris flower dataset contains measurements of three classes of Iris flower, the setosa, versicolor and virginica. Measurements from fifty samples are recorded from each of the flowers' petal length, petal width, sepal length and sepal width. Through a statistical method of linear discriminant analysis, Fisher used the measurements "to discriminate the species as distincly as possible[2]." The dataset can be opened or viewed in the repository in a folder named "datum", alternatively, please click here. 
+The dataset used in this project was introduced by Ronald Fisher in 1936 from his paper "The use of multiple measurements in taxonomic problems." This is considered to be best known database in pattern recognition literature [1]. Fishers Iris flower dataset contains measurements of three classes of Iris flower, the setosa, versicolor and virginica. Measurements from fifty samples are recorded from each of the flowers' petal length, petal width, sepal length and sepal width. Through a statistical method of linear discriminant analysis, Fisher used the measurements "to discriminate the species as distincly as possible[2]." The dataset can be opened or viewed in the repository in a folder named [datum](https://github.com/NurseQ/Project-Iris-Flower-Dataset/tree/master/datum). 
 
 ## 2. Investigations regarding the dataset in Python
 This section presents the steps taken to analyse the data set. A brief narrative to explain the procedure and extracts of code are inserted to present how the data set is manipulated. A link to the whole code is provided for each section.  
@@ -236,9 +236,9 @@ Other supporting graphs used in the project are histograms, which also show the 
 
 
 ## References
-[2] UCI Machine Learning Repository, "Iris Data Set," [Online]. Available: https://archive.ics.uci.edu/ml/datasets/iris. [Accessed: April 11,2018].
+[1] UCI Machine Learning Repository, "Iris Data Set," [Online]. Available: https://archive.ics.uci.edu/ml/datasets/iris. [Accessed: April 11,2018].
 
-[1] R. A. Fisher, "The use of multiple measurements in taxonomic problems," *The Annals of Human Genetics, 1936,* [Online] Available: https://onlinelibrary.wiley.com/doi/pdf/10.1111/j.1469-1809.1936.tb02137.x. [Accessed: April 11, 2018].
+[2] R. A. Fisher, "The use of multiple measurements in taxonomic problems," *The Annals of Human Genetics, 1936,* [Online] Available: https://onlinelibrary.wiley.com/doi/pdf/10.1111/j.1469-1809.1936.tb02137.x. [Accessed: April 11, 2018].
 
 [3] P. S. Hoey, "Statistical analysis of the Iris Flower Dataset", University of Massachusetts, [Online]. Available: http://patrickhoey.com/downloads/Computer_Science/03_Patrick_Hoey_Data_Visualization_Dataset_paper.pdf. [Accessed: April 11,2018].
 
